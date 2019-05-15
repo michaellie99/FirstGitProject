@@ -45,6 +45,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Pause the view's session
         sceneView.session.pause()
+        print("Save coordinate")
     }
 
     // MARK: - ARSCNViewDelegate
